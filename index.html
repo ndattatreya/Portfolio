@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header home">
+        <div class="container">
+            <nav>
+                <h3><a text-decoration: none; style="color: darkred;"
+                        href="https://www.linkedin.com/in/namminadattatreya/" target="_blank">Dattatreya Nammina</a>
+                </h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p style="font-weight: bolder;">Tech Enthusiast!!</p>
+                <h1>Hello There!! ,<br> Myself Nammina Dattatreya<br>From SRM University AP, Amaravati</h1>
+            </div>
+
+            <!-----------about---------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/1646487433512.jpg">
+                        </div>
+                        <div class="about-col-2">
+                            <h2 style="color: black;" class="sub-title">About Me</h2><br>
+                            <ul>
+                                <li style="font-size: x-large; padding-bottom: 20px;">I'm Dattatreya Nammina, currently
+                                    pursuing my Undergraduation Bachelors Degree(as a Student) from SRM University, AP.
+                                </li>
+                                <li style="font-size: x-large; padding-bottom: 20px;">I'm exited to know about new
+                                    things and also a quick learner.</li>
+                                <li style="font-size: x-large; padding-bottom: 20px;">I'm good at managing my tasks and
+                                    complete them on time by scheduling them accordingly to a proper time.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-----------skills------------>
+            <div id="skills">
+                <h1>Technical Skills</h1><br>
+                <img class="img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png"
+                    alt="C">
+                <img class="img"
+                    src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1309974/retina_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png"
+                    alt="C++">
+                <img class="img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStw4ewdy22Yjt7Lml786IkGsNCuqcec5Ub8oIHUb51qg&s"
+                    alt="Python">
+                <img class="img"
+                    src="https://media.licdn.com/dms/image/D5612AQHk1TSLucGSCQ/article-cover_image-shrink_720_1280/0/1699339646894?e=2147483647&v=beta&t=Z65Bgt43ndSoHk_X1HK2jJRxanlsvoYkz-5dW3-EU9Q"
+                    alt="DSA using C">
+            </div>
+            <h3>C Programming Language</h3>
+            <h3>C++ Programming Language</h3>
+            <h3>Python Programming Language</h3>
+            <h3>Data Structures using C</h3>
+            <!------------Project Experience--------->
+            <div id="projects">
+                <h1>Project Experience</h1><br>
+
+                <img class="img" src="https://www.apptivo.com/wp-content/uploads/2016/04/contact-manager.png" alt="cms">
+                <img href="https://github.com/dattatreyanammina1/CPPREPORT.git" class="img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJacvbzv2gSUblXGu7OsZQzoC0VZjQH82l0WXv2UXhQ&s">
+                <img class="img" src="https://restoreprivacy.com/wp-content/uploads/2023/09/password-manager.jpeg">
+            </div>
+            <ul>
+                <br>
+                <li style="font-size: x-large;">Contact Management System - C</li>
+                <li style="font-size: x-large;">Password-Manager - C++</li>
+                <li style="font-size: x-large;">Password-Manager - HTML, CSS, Js</li>
+            </ul>
+            <!------------Education--------->
+            <div id="education">
+                <h1>Education</h1><br>
+                <h1>2022-2026<br>SRM University AP, Amaravati<br>
+                    2020-2022<br>Sri Chaitanya Junior College<br>
+                    2019-2020<br>Bhashyam Public School<br><br>
+                </h1>
+            </div>
+            <!------------Contact------------>
+            <div id="contact">
+                <div class="container">
+                    <h1>Contact Me<br></h1>
+                    <p>If you have any inquiries or would like to collaborate, feel free to reach out!</p>
+                    <form ud="contactForm" name="submit-to-google-sheet" action="https://script.google.com/macros/s/AKfycbyIXar-AFN2c_33A2Ai5YD8w7_LUYPD4VzLXLQdtsha/dev" method="post">
+                        <input name="firstName" type="text" placeholder="First Name" required><br>
+                        <input name="lastName" type="text" placeholder="Last Name" required><br>
+                        <input name="email" type="email" placeholder="Email" required><br>
+                        <input name="message" type="text" placeholder="Message" required><br>
+                        <button id="submit" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function doPost(e) {
+            var sheet = SpreadsheetApp.openById('https://script.google.com/macros/s/AKfycbyIXar-AFN2c_33A2Ai5YD8w7_LUYPD4VzLXLQdtsha/dev').getActiveSheet();
+            var newRow = sheet.getLastRow() + 1;
+            var rowData = [];
+            rowData.push(new Date()); 
+            rowData.push(e.parameter.firstName);
+            rowData.push(e.parameter.lastName); 
+            rowData.push(e.parameter.email); 
+            rowData.push(e.parameter.message);
+            form.reset();
+            return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
+            }
+        </script>
+</body>
+
+</html>
